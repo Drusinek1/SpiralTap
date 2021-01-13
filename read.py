@@ -36,7 +36,7 @@ def spiral(cls_path):
     tmpMat = np.zeros_like(data)
     rows, cols = 0, 0
 
-    t_data = data[:,15000:15100]
+    t_data = data[:,15500:15600]
   
     
     for prof in range(0, t_data.shape[1]):
